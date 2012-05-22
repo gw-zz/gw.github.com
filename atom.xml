@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Les Mardis Gourmand]]></title>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2012-05-22T02:07:29+02:00</updated>
+  <id>http://yoursite.com/</id>
+  <author>
+    <name><![CDATA[Anonydroid]]></name>
+    
+  </author>
+  <generator uri="http://jekyll.org/">Jekyll</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Cake au thé vert]]></title>
+    <link href="http://yoursite.com/blog/2012/05/21/cake-au-the-vert/"/>
+    <updated>2012-05-21T23:41:00+02:00</updated>
+    <id>http://yoursite.com/blog/2012/05/21/cake-au-the-vert</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<h1>La recette du cake au thé vert (&#8220;Matcha&#8221;)</h1>
+
+<p>Le Matcha (麻茶) est une poudre très fine de thé vert moulu, un ingédient
+utilisé pour la cérémonie du thé japonais, comme colorant ou arôme naturel
+(plus d&#8217;infos sur le thé vert dans la section liens externes).</p>
+
+<h2>Ingrédients</h2>
+
+<p>pour un cake :</p>
+
+<ul>
+<li>3 œufs</li>
+<li>180 gr de sucre</li>
+<li>60 gr de crème liquide entière (6 cl)</li>
+<li>165 gr de farine</li>
+<li>1 cuil. à café rase de levure chimique</li>
+<li>90 gr de beurre demi-sel fondu</li>
+<li>1 cuil. (ou 7gr) à soupe rase de thé vert en poudre matcha</li>
+</ul>
+
+
+<p>Pour le sirop:</p>
+
+<ul>
+<li>10 cl d&#8217;eau</li>
+<li>30 gr de sucre</li>
+</ul>
+
+
+<h2>Préparation</h2>
+
+<ol>
+<li>Beurrez un moule à cake et mettez-le au frais.</li>
+<li>Préchauffez votre four à 165°C.</li>
+<li>Mélangez la crème liquide et le thé vert à l&#8217;aide d&#8217;un petit fouet et laissez le reposer.</li>
+<li>Dans un grand bol, mélangez les œufs et le sucre jusqu&#8217;à ce que le mélange
+blanchisse.</li>
+<li>Ajoutez le mélange crème et thé vert et mélangez.</li>
+<li>Ajoutez la farine, la levure puis mélangez jusqu&#8217;à obtenir un mélange lisse.</li>
+<li>Ajoutez le beurre fondu et tiédi, et mélangez à nouveau.</li>
+<li>Versez dans votre moule à cake et enfournez.</li>
+<li>Laissez cuire pendant 45 à 50 minutes environ. Une lame de couteau insérée
+au centre du cake doit ressortir sèche.</li>
+</ol>
+
+
+<p>Pendant la cuisson, faites bouillir l&#8217;eau et le sucre dans votre four à
+micro-ondes ou une casserole.</p>
+
+<p>Une fois le cake sorti du four, badigeonnez la surface avec le sirop, en vous
+aidant du pinceau. Badigeonnez 4 à 5 fois en trempant à chaque fois le pinceau
+dans le sirop. Laissez tiédir puis démoulez le cake sur une grille pour sécher.</p>
+
+<p>Déguster froid ave un bon thé vert !</p>
+
+<h2>Note</h2>
+
+<p>Il est possible de modifier la recette en y ajoutant des fruits, par exemple,
+des morceaux de framboises, qu&#8217;il faut ajouter en même temps que l&#8217;on verse
+le mélange dans le cake.</p>
+
+<h2>Liens externes</h2>
+
+<ul>
+<li><a href="http://www.thematcha.fr">http://www.thematcha.fr</a></li>
+<li><a href="http://thematcha.net">http://thematcha.net</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Matcha">http://en.wikipedia.org/wiki/Matcha</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RDiscount]]></title>
+    <link href="http://yoursite.com/blog/2012/05/20/rdiscount/"/>
+    <updated>2012-05-20T17:46:00+02:00</updated>
+    <id>http://yoursite.com/blog/2012/05/20/rdiscount</id>
+    <content type="html"><![CDATA[<h1>Discount Markdown Processor for Ruby</h1>
+
+<p>Discount is an implementation of John Gruber&#8217;s Markdown markup language in C. It
+implements all of the language described in <a href="http://daringfireball.net/projects/markdown/syntax">the markdown syntax document</a> and
+passes the <a href="http://daringfireball.net/projects/downloads/MarkdownTest_1.0.zip">Markdown 1.0 test suite</a>.</p>
+
+<!--more-->
+
+
+<p>CODE: <code>git clone git://github.com/rtomayko/rdiscount.git</code><br/>
+HOME: <a href="http://github.com/rtomayko/rdiscount">http://github.com/rtomayko/rdiscount</a><br/>
+DOCS: <a href="http://rdoc.info/projects/rtomayko/rdiscount">http://rdoc.info/projects/rtomayko/rdiscount</a><br/>
+BUGS: <a href="http://github.com/rtomayko/rdiscount/issues">http://github.com/rtomayko/rdiscount/issues</a></p>
+
+<p>Discount was developed by <a href="http://www.pell.portland.or.us/~orc">David Loren Parsons</a>. The Ruby extension
+is maintained by <a href="http://tomayko.com/about">Ryan Tomayko</a>.</p>
+
+<h2>INSTALL, HACKING</h2>
+
+<p>New releases of RDiscount are published to <a href="http://gemcutter.org/gems/rdiscount">gemcutter</a>:</p>
+
+<pre><code>$ [sudo] gem install rdiscount -s http://gemcutter.org
+</code></pre>
+
+<p>The RDiscount sources are available via Git:</p>
+
+<pre><code>$ git clone git://github.com/rtomayko/rdiscount.git
+$ cd rdiscount
+$ rake --tasks
+</code></pre>
+
+<p>See the file <a href="BUILDING">BUILDING</a> for hacking instructions.</p>
+
+<h2>USAGE</h2>
+
+<p>RDiscount implements the basic protocol popularized by RedCloth and adopted
+by BlueCloth:</p>
+
+<pre><code>require 'rdiscount'
+markdown = RDiscount.new("Hello World!")
+puts markdown.to_html
+</code></pre>
+
+<p>Additional processing options can be turned on when creating the
+RDiscount object:</p>
+
+<pre><code>markdown = RDiscount.new("Hello World!", :smart, :filter_html)
+</code></pre>
+
+<p>Inject RDiscount into your BlueCloth-using code by replacing your bluecloth
+require statements with the following:</p>
+
+<pre><code>begin
+  require 'rdiscount'
+  BlueCloth = RDiscount
+rescue LoadError
+  require 'bluecloth'
+end
+</code></pre>
+
+<h2>COPYING</h2>
+
+<p>Discount is free software;  it is released under a BSD-style license
+that allows you to do as you wish with it as long as you don&#8217;t attempt
+to claim it as your own work. RDiscount adopts Discount&#8217;s license
+verbatim. See the file <code>COPYING</code> for more information.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[jekyll]]></title>
+    <link href="http://yoursite.com/blog/2012/05/20/jekyll/"/>
+    <updated>2012-05-20T16:28:00+02:00</updated>
+    <id>http://yoursite.com/blog/2012/05/20/jekyll</id>
+    <content type="html"><![CDATA[<h1>Hi Jekyll !</h1>
+<p>By Tom Preston-Werner, Nick Quaranto, and many awesome contributors!</p>
+<p>Jekyll is a simple, blog aware, static site generator. It takes a template directory (representing the raw form of a website), runs it through Textile or Markdown and Liquid converters, and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind <a href="http://pages.github.com">GitHub Pages</a>, which you can use to host your project&#8217;s page or blog right here from GitHub.<br />
+<!--more--></p>
+<h2>Getting Started</h2>
+<ul>
+	<li><a href="http://wiki.github.com/mojombo/jekyll/install">Install</a> the gem</li>
+	<li>Read up about its <a href="http://wiki.github.com/mojombo/jekyll/usage">Usage</a> and <a href="http://wiki.github.com/mojombo/jekyll/configuration">Configuration</a></li>
+	<li>Take a gander at some existing <a href="http://wiki.github.com/mojombo/jekyll/sites">Sites</a></li>
+	<li>Fork and <a href="http://wiki.github.com/mojombo/jekyll/contribute">Contribute</a> your own modifications</li>
+	<li>Have questions? Post them on the <a href="http://groups.google.com/group/jekyll-rb">Mailing List</a></li>
+</ul>
+<h2>Diving In</h2>
+<ul>
+	<li><a href="http://wiki.github.com/mojombo/jekyll/blog-migrations">Migrate</a> from your previous system</li>
+	<li>Learn how the <a href="http://wiki.github.com/mojombo/jekyll/yaml-front-matter"><span class="caps">YAML</span> Front Matter</a> works</li>
+	<li>Put information on your site with <a href="http://wiki.github.com/mojombo/jekyll/template-data">Template Data</a></li>
+	<li>Customize the <a href="http://wiki.github.com/mojombo/jekyll/permalinks">Permalinks</a> your posts are generated with</li>
+	<li>Use the built-in <a href="http://wiki.github.com/mojombo/jekyll/liquid-extensions">Liquid Extensions</a> to make your life easier</li>
+</ul>
+<h2>Runtime Dependencies</h2>
+<ul>
+	<li>RedCloth: Textile support (Ruby)</li>
+	<li>Liquid: Templating system (Ruby)</li>
+	<li>Classifier: Generating related posts (Ruby)</li>
+	<li>Maruku: Default markdown engine (Ruby)</li>
+	<li>Directory Watcher: Auto-regeneration of sites (Ruby)</li>
+	<li>Pygments: Syntax highlighting (Python)</li>
+</ul>
+<h2>Developer Dependencies</h2>
+<ul>
+	<li>Shoulda: Test framework (Ruby)</li>
+	<li>RR: Mocking (Ruby)</li>
+	<li>RedGreen: Nicer test output (Ruby)</li>
+	<li>RDiscount: Discount Markdown Processor (Ruby)</li>
+</ul>
+<h2>License</h2>
+<p>See <span class="caps">LICENSE</span>.</p>]]></content>
+  </entry>
+  
+</feed>

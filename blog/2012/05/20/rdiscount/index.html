@@ -1,0 +1,154 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RDiscount - Les Mardis Gourmand</title>
+    <meta name="author" content="Anonydroid">
+
+    
+    <meta name="description" content="RDiscount Discount Markdown Processor for Ruby Discount is an implementation of John Gruber&#8217;s Markdown markup language in C. It
+implements all &hellip;">
+    
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+    <link href="/atom.xml" rel="alternate" title="Les Mardis Gourmand" type="application/atom+xml">
+    <link rel="canonical" href="">
+    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+</head>
+
+
+<body>
+	<header class="inner"><h1 class="left"><a href="/">Les Mardis Gourmand</a></h1>
+<nav class="menu left"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/about">À propos</a></li>
+</ul>
+</nav>
+<div class="right">
+	<div class="social right">
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</div>
+
+</header>
+	
+	<div id="content" class="inner"><article class="post">
+    <h1 class="title">RDiscount</h1>
+    <div class="entry"><h1>Discount Markdown Processor for Ruby</h1>
+
+<p>Discount is an implementation of John Gruber&#8217;s Markdown markup language in C. It
+implements all of the language described in <a href="http://daringfireball.net/projects/markdown/syntax">the markdown syntax document</a> and
+passes the <a href="http://daringfireball.net/projects/downloads/MarkdownTest_1.0.zip">Markdown 1.0 test suite</a>.</p>
+
+<!--more-->
+
+
+<p>CODE: <code>git clone git://github.com/rtomayko/rdiscount.git</code><br/>
+HOME: <a href="http://github.com/rtomayko/rdiscount">http://github.com/rtomayko/rdiscount</a><br/>
+DOCS: <a href="http://rdoc.info/projects/rtomayko/rdiscount">http://rdoc.info/projects/rtomayko/rdiscount</a><br/>
+BUGS: <a href="http://github.com/rtomayko/rdiscount/issues">http://github.com/rtomayko/rdiscount/issues</a></p>
+
+<p>Discount was developed by <a href="http://www.pell.portland.or.us/~orc">David Loren Parsons</a>. The Ruby extension
+is maintained by <a href="http://tomayko.com/about">Ryan Tomayko</a>.</p>
+
+<h2>INSTALL, HACKING</h2>
+
+<p>New releases of RDiscount are published to <a href="http://gemcutter.org/gems/rdiscount">gemcutter</a>:</p>
+
+<pre><code>$ [sudo] gem install rdiscount -s http://gemcutter.org
+</code></pre>
+
+<p>The RDiscount sources are available via Git:</p>
+
+<pre><code>$ git clone git://github.com/rtomayko/rdiscount.git
+$ cd rdiscount
+$ rake --tasks
+</code></pre>
+
+<p>See the file <a href="BUILDING">BUILDING</a> for hacking instructions.</p>
+
+<h2>USAGE</h2>
+
+<p>RDiscount implements the basic protocol popularized by RedCloth and adopted
+by BlueCloth:</p>
+
+<pre><code>require 'rdiscount'
+markdown = RDiscount.new("Hello World!")
+puts markdown.to_html
+</code></pre>
+
+<p>Additional processing options can be turned on when creating the
+RDiscount object:</p>
+
+<pre><code>markdown = RDiscount.new("Hello World!", :smart, :filter_html)
+</code></pre>
+
+<p>Inject RDiscount into your BlueCloth-using code by replacing your bluecloth
+require statements with the following:</p>
+
+<pre><code>begin
+  require 'rdiscount'
+  BlueCloth = RDiscount
+rescue LoadError
+  require 'bluecloth'
+end
+</code></pre>
+
+<h2>COPYING</h2>
+
+<p>Discount is free software;  it is released under a BSD-style license
+that allows you to do as you wish with it as long as you don&#8217;t attempt
+to claim it as your own work. RDiscount adopts Discount&#8217;s license
+verbatim. See the file <code>COPYING</code> for more information.</p>
+</div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-20T17:46:00+02:00" pubdate data-updated="true">May 20<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+</div>
+        
+    </div>
+
+</article>
+
+</div>
+	<footer class="inner"><a  class="basic-alignment left" 
+    href="http://creativecommons.org/licences/by-sa/3.0/">
+<!--img alt="Licence Creative Commons" sytle="border-width:0"
+ src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/-->
+CC-by-sa</a>&curren;
+CopyLeft 2012
+
+    Anonydroid
+&curren;
+
+</footer>
+	<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/slash.js"></script>
+
+
+
+
+</body>
+</html>
